@@ -1,0 +1,34 @@
+<script type="wasm/zig">
+  // import other components to use in template
+  const Button = @import("./components/Button.zvelte");
+  const Header = @import("./components/Header.zvelte");
+
+  // top-level consts should have compile-time known values, shared between component instances
+  const default_name = "Ziggy Stardust";
+
+  // props
+  pub var title: []u8;
+  // is `export var title: []u8;` supported by zig?
+
+  // local component state
+  var name: []u8 = default_name;
+
+  // functions exposed to template to use in callbacks, template strings, etc.
+  // is this feasible? without wasm and zig support for host reference types,
+  // conversion of DOM/Event types to wasm int-pointers may be necessary
+  // translation can be done at compile time
+  fn clearInput(event: InputEvent) void {
+    name = "";
+  }
+</script>
+
+<Header>{title}</Header>
+<main>
+  <input bind:value={name} />
+  <p>Hello {name}</p>
+  <Button on:click={clearInput}>Clear</Button>
+</main>
+
+<style>
+  /* regular CSS here */
+</style>
