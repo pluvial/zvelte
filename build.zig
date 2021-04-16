@@ -1,13 +1,18 @@
 const std = @import("std");
+const compiler = @import("./src/compiler/main.zig");
 
 pub fn build(b: *std.build.Builder) void {
     const mode = b.standardReleaseOptions();
     const target = .{ .cpu_arch = .wasm32, .os_tag = .freestanding };
 
+    var compile_step = b.step("compile", "Compile zvelte components to zig files");
+    compile_step.makeFn = compiler.makeFn;
+
     const lib = b.addStaticLibrary("main", "src/main.zig");
     lib.setBuildMode(mode);
     lib.setTarget(target);
     lib.setOutputDir("public/build");
+    lib.step.dependOn(compile_step);
     lib.install();
 
     const main_tests = b.addTest("src/main.zig");
