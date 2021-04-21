@@ -1,3 +1,5 @@
+import * as zigdom from './zigdom.js';
+
 const url = 'build/main.wasm';
 
 // const global = new WebAssembly.Global({ value: 'i32', mutable: true }, 0);
@@ -11,6 +13,7 @@ const importObject = {
       console.log(`The result is ${result}`);
     },
   },
+  ...zigdom.importObject,
 };
 
 /// instantiateStreaming
@@ -40,3 +43,5 @@ const { module, instance } = await WebAssembly.instantiateStreaming(
 // const instance = await WebAssembly.instantiate(module, importObject);
 
 instance.exports.printAdd(2, 3);
+
+zigdom.launch(instance);

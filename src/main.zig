@@ -2,6 +2,9 @@ const std = @import("std");
 const testing = std.testing;
 const zvelte = @import("./runtime/main.zig");
 
+// re-export Zig DOM example
+usingnamespace @import("./zigdom.zig");
+
 export fn add(a: i32, b: i32) i32 {
     return a + b;
 }
