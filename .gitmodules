@@ -1,0 +1,220 @@
+[submodule "lib/svelte"]
+	path = lib/svelte
+	url = https://github.com/sveltejs/svelte.git
+	ignore = dirty
+[submodule "lib/svelte-kit"]
+	path = lib/svelte-kit
+	url = https://github.com/sveltejs/kit.git
+	ignore = dirty
+[submodule "lib/svelte-hmr"]
+	path = lib/svelte-hmr
+	url = https://github.com/rixo/svelte-hmr.git
+	ignore = dirty
+[submodule "lib/svelte-language-tools"]
+	path = lib/svelte-language-tools
+	url = https://github.com/sveltejs/language-tools.git
+	ignore = dirty
+[submodule "lib/vite-plugin-svelte"]
+	path = lib/vite-plugin-svelte
+	url = https://github.com/sveltejs/vite-plugin-svelte.git
+	ignore = dirty
+[submodule "lib/vite"]
+	path = lib/vite
+	url = https://github.com/vitejs/vite.git
+	ignore = dirty
+[submodule "lib/rollup-plugin-svelte"]
+	path = lib/rollup-plugin-svelte
+	url = https://github.com/sveltejs/rollup-plugin-svelte.git
+	ignore = dirty
+[submodule "lib/rollup"]
+	path = lib/rollup
+	url = https://github.com/rollup/rollup.git
+	ignore = dirty
+[submodule "lib/svelte-realworld"]
+	path = lib/svelte-realworld
+	url = https://github.com/sveltejs/realworld.git
+	ignore = dirty
+[submodule "lib/svelte-template"]
+	path = lib/svelte-template
+	url = https://github.com/sveltejs/template.git
+	ignore = dirty
+[submodule "lib/svelte-component-template"]
+	path = lib/svelte-component-template
+	url = https://github.com/sveltejs/component-template.git
+	ignore = dirty
+[submodule "lib/Snel"]
+	path = lib/Snel
+	url = https://github.com/crewdevio/Snel.git
+	ignore = dirty
+[submodule "lib/svelte-deno"]
+	path = lib/svelte-deno
+	url = https://github.com/denofn/svelte.git
+	ignore = dirty
+[submodule "lib/micro-svelte-compiler"]
+	path = lib/micro-svelte-compiler
+	url = https://github.com/joshnuss/micro-svelte-compiler.git
+	ignore = dirty
+[submodule "lib/zig"]
+	path = lib/zig
+	url = https://github.com/ziglang/zig.git
+	ignore = dirty
+[submodule "lib/zls"]
+	path = lib/zls
+	url = https://github.com/zigtools/zls.git
+	ignore = dirty
+[submodule "lib/zls-vscode"]
+	path = lib/zls-vscode
+	url = https://github.com/zigtools/zls-vscode.git
+	ignore = dirty
+[submodule "lib/vscode-zig"]
+	path = lib/vscode-zig
+	url = https://github.com/ziglang/vscode-zig.git
+	ignore = dirty
+[submodule "lib/mecha"]
+	path = lib/mecha
+	url = https://github.com/Hejsil/mecha.git
+	ignore = dirty
+[submodule "lib/parzig"]
+	path = lib/parzig
+	url = https://github.com/notCalle/parzig.git
+	ignore = dirty
+[submodule "lib/hppy"]
+	path = lib/hppy
+	url = https://github.com/ducdetronquito/hppy.git
+	ignore = dirty
+[submodule "lib/zhtml"]
+	path = lib/zhtml
+	url = https://github.com/watzon/zhtml.git
+	ignore = dirty
+[submodule "lib/zzz"]
+	path = lib/zzz
+	url = https://github.com/gruebite/zzz.git
+	ignore = dirty
+[submodule "lib/wazm"]
+	path = lib/wazm
+	url = https://github.com/fengb/wazm.git
+	ignore = dirty
+[submodule "lib/zasm"]
+	path = lib/zasm
+	url = https://github.com/andrewrk/zasm.git
+	ignore = dirty
+[submodule "lib/zigfmt-web"]
+	path = lib/zigfmt-web
+	url = https://github.com/shritesh/zigfmt-web.git
+	ignore = dirty
+[submodule "lib/zig-wasm-dom"]
+	path = lib/zig-wasm-dom
+	url = https://github.com/shritesh/zig-wasm-dom.git
+	ignore = dirty
+[submodule "lib/zig-wasm-test"]
+	path = lib/zig-wasm-test
+	url = https://github.com/meheleventyone/zig-wasm-test.git
+	ignore = dirty
+[submodule "lib/zig-wasm-tetris"]
+	path = lib/zig-wasm-tetris
+	url = https://github.com/raulgrell/tetris.git
+	ignore = dirty
+[submodule "lib/zig-wasm-webgl"]
+	path = lib/zig-wasm-webgl
+	url = https://github.com/raulgrell/zig-wasm-webgl.git
+	ignore = dirty
+[submodule "lib/zee_alloc"]
+	path = lib/zee_alloc
+	url = https://github.com/fengb/zee_alloc.git
+	ignore = dirty
+[submodule "lib/fundude"]
+	path = lib/fundude
+	url = https://github.com/fengb/fundude.git
+	ignore = dirty
+[submodule "lib/zig-gl"]
+	path = lib/zig-gl
+	url = https://github.com/dbandstra/zig-gl.git
+	ignore = dirty
+[submodule "lib/zig-webgl"]
+	path = lib/zig-webgl
+	url = https://github.com/dbandstra/zig-webgl.git
+	ignore = dirty
+[submodule "lib/oxid"]
+	path = lib/oxid
+	url = https://github.com/dbandstra/oxid.git
+	ignore = dirty
+[submodule "lib/zoalike"]
+	path = lib/zoalike
+	url = https://github.com/dbandstra/zoalike.git
+	ignore = dirty
+[submodule "lib/rust"]
+	path = lib/rust
+	url = https://github.com/rust-lang/rust.git
+	ignore = dirty
+[submodule "lib/chalk"]
+	path = lib/chalk
+	url = https://github.com/rust-lang/chalk.git
+	ignore = dirty
+[submodule "lib/miri"]
+	path = lib/miri
+	url = https://github.com/rust-lang/miri.git
+	ignore = dirty
+[submodule "lib/rust-analyzer"]
+	path = lib/rust-analyzer
+	url = https://github.com/rust-analyzer/rust-analyzer.git
+	ignore = dirty
+[submodule "lib/rslint"]
+	path = lib/rslint
+	url = https://github.com/rslint/rslint.git
+	ignore = dirty
+[submodule "lib/deno_lint"]
+	path = lib/deno_lint
+	url = https://github.com/denoland/deno_lint.git
+	ignore = dirty
+[submodule "lib/swc"]
+	path = lib/swc
+	url = https://github.com/swc-project/swc.git
+	ignore = dirty
+[submodule "lib/tree-sitter"]
+	path = lib/tree-sitter
+	url = https://github.com/tree-sitter/tree-sitter.git
+	ignore = dirty
+[submodule "lib/wasm-bindgen"]
+	path = lib/wasm-bindgen
+	url = https://github.com/rustwasm/wasm-bindgen.git
+	ignore = dirty
+[submodule "lib/makepad"]
+	path = lib/makepad
+	url = https://github.com/makepad/makepad.git
+	ignore = dirty
+[submodule "lib/mogwai"]
+	path = lib/mogwai
+	url = https://github.com/schell/mogwai.git
+	ignore = dirty
+[submodule "lib/valerie"]
+	path = lib/valerie
+	url = https://github.com/emmanuelantony2000/valerie.git
+	ignore = dirty
+[submodule "lib/lit-html-rs"]
+	path = lib/lit-html-rs
+	url = https://github.com/richardanaya/lit-html-rs.git
+	ignore = dirty
+[submodule "lib/js-wasm"]
+	path = lib/js-wasm
+	url = https://github.com/richardanaya/js-wasm.git
+	ignore = dirty
+[submodule "lib/wasm-script"]
+	path = lib/wasm-script
+	url = https://github.com/richardanaya/wasm-script.git
+	ignore = dirty
+[submodule "lib/wasm-module"]
+	path = lib/wasm-module
+	url = https://github.com/richardanaya/wasm-module.git
+	ignore = dirty
+[submodule "lib/js_ffi"]
+	path = lib/js_ffi
+	url = https://github.com/richardanaya/js_ffi.git
+	ignore = dirty
+[submodule "lib/poetry"]
+	path = lib/poetry
+	url = https://github.com/FantasyInternet/poetry.git
+	ignore = dirty
+[submodule "lib/webvm"]
+	path = lib/webvm
+	url = https://github.com/shritesh/webvm.git
+	ignore = dirty
