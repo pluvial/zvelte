@@ -8,7 +8,7 @@ pub fn build(b: *std.build.Builder) void {
     var compile_step = b.step("compile", "Compile zvelte components to zig files");
     compile_step.makeFn = compiler.makeFn;
 
-    const lib = b.addStaticLibrary("main", "src/main.zig");
+    const lib = b.addSharedLibrary("main", "src/main.zig", .unversioned);
     lib.setBuildMode(mode);
     lib.setTarget(target);
     lib.setOutputDir("public/build");

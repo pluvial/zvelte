@@ -26,6 +26,7 @@ export fn createApp() bool {
     const Events = struct {};
     const Slots = struct {};
     const App = zvelte.Component(Props, Events, Slots);
-    const app = App.init(.{});
+    // const app = App.init(.{});
+    _ = App.init(.{});
     return true;
 }

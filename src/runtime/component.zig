@@ -43,22 +43,27 @@ const Internal = struct {};
 //     $destroy(): void;
 //     [accessor: string]: any;
 // }
-pub fn Component(comptime Props: type, comptime Events: type, comptime Slots: type) type {
+pub fn Component(comptime Props: type, comptime _: type, comptime _: type) type {
+    const Event = {};
     return struct {
         const Self = @This();
 
         internal: Internal,
 
         // probably need an allocator here
-        pub fn init(option: Options) Self {
+        // pub fn init(options: Options) Self {
+        pub fn init(_: Options) Self {
             return Self{ .internal = .{} };
         }
         // take *Self instead to set self.* = undefined?
-        pub fn deinit(self: Self) void {}
+        // pub fn deinit(self: Self) void {}
+        pub fn deinit(_: Self) void {}
 
-        fn set(self: Self, props: ?Props) void {}
+        // fn set(self: Self, props: ?Props) void {}
+        fn set(_: Self, _: ?Props) void {}
 
-        fn on(self: Self, event_type: []u8, callback: fn (event: Event) void) fn () void {
+        // fn on(self: Self, event_type: []u8, callback: fn (event: Event) void) fn () void {
+        fn on(_: Self, _: []u8, _: fn (event: Event) void) fn () void {
             return fn () void{};
         }
     };
